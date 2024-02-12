@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package chessMessages;
+
+message SingupMsg
+{
+    string name = 1;
+    string password = 2;
+}
+
+message LoginMsg
+{
+    string name = 1;
+    string password = 2;
+}

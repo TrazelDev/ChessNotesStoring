@@ -1,0 +1,37 @@
+.chessboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.chessboard > div {
+    border: 15px solid black;
+    border-style: solid;
+}
+
+.chessboard-row {
+    display: flex;
+}
+
+.chessboard-row > div {
+    border: 3px solid black;
+}
+
+.white-cell {
+    width: 5vh;
+    height: 5vh;
+    background-color: white;
+
+}
+
+.black-cell {
+    width: 5vh;
+    height: 5vh;
+    background-color: #70181b; 
+}
+
+.chess-piece
+{
+    color: black;
+}

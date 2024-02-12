@@ -1,0 +1,35 @@
+.top-bar {
+    position: relative;
+  }
+  
+  .app-bar {
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .routes {
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    top: 15vh; /* Adjust top position according to the app bar height */
+  }
+
+  .temp
+  {
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 60vh; /* Adjust top position according to the app bar height */
+  }
+
+  .pie-chart {
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    top: 70vh; /* Adjust top position to position below the routes */
+  }
+  
